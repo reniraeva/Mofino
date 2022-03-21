@@ -1,0 +1,15 @@
+.bg-mofino {
+    background-color: #109899;
+}
+
+.text-mofino {
+    color: #109899;
+}
+
+.hr-2 {
+    height: 2px;
+}
+
+textarea {
+    resize: none;
+}
