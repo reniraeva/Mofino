@@ -24,9 +24,9 @@ public class HomeController {
     public ModelAndView home(ModelAndView modelAndView, HttpSession session){
 
         if (session.getAttribute("username") == null){
-            modelAndView.setViewName("redirect:/login");
+            modelAndView.setViewName("redirect:/login.html");
         }else {
-            modelAndView.setViewName("static/home.html");
+            modelAndView.setViewName("home.html");
         }
         return modelAndView;
     }

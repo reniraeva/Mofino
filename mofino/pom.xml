@@ -52,7 +52,7 @@
 		<dependency>
 			<groupId>org.modelmapper</groupId>
 			<artifactId>modelmapper</artifactId>
-			<version>LATEST</version>
+			<version>3.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-codec</groupId>
